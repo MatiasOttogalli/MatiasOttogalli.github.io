@@ -6,55 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
 
 <body>
 
     <nav class="navegador">
         <img src="./images/logo.svg" alt="logo_nav_izq">
-        <img class="menu" src="./images/iconmonstr-menu-1.svg" alt="icono menu">
+        <i class="fas fa-bars"></i>
     </nav>
 
     <header>
-        <h1 class="titulo">Hello world pale blue dot.</h1>
+        <h1 class="titulo">Hello <span class="tachado">world</span> pale blue dot.</h1>
         <p>Un podcast que explora el mundo de la programación. Nuevos episodios todos los jueves cada 15 dias.</p>
+
+        <div class="conocemas">
+            <a href="#">CONOCE MAS</a>
+        </div>
     </header>
 
-    <div class="conocemas">
-        <a href="#">CONOCE MAS</a>
-    </div>
+    <div class="fondo-azul"></div>
 
-    <div class="episodios">
-        <h2>Episodios</h2>
-    </div>
+    <section class="episodios">
+        <div class="titulo-episodios">
+            <h2>Episodios</h2>
+        </div>
 
-    <div class="sporify">
-        <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%" height="232"
-            frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <div class="spotify">
+            <iframe class="iframe1" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%"
+                height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-        <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" width="100%" height="232"
-            frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" width="100%"
+                height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-        <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" width="100%" height="232"
-            frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" width="100%"
+                height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-        <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" width="100%" height="232"
-            frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-    </div>
+            <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" width="100%"
+                height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+    </section>
 
-    <div class="celular">
-        <img src="./images/phone.png" alt="celular">
-    </div>
+    <section class=celular>
+        <div class="celularimg">
+            <!-- <img src="./images/phone.png" alt="celular"> -->
+        </div>
 
-    <div>
-        <h2>De dónde venimos</h2>
-        <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the
-            Universe, are challenged by this point of pale light. Our planet is a lonely speck in the great enveloping
-            cosmic dark. in our obscurity, in all this vastness, there is no hint that help will come from elsewhere to
-            save is from ourselves.</p>
-    </div>
+        <div class="venimos">
+            <h2>De dónde venimos</h2>
+            <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the
+                Universe, are challenged by this point of pale light. Our planet is a lonely speck in the great
+                enveloping
+                cosmic dark. in our obscurity, in all this vastness, there is no hint that help will come from elsewhere
+                to
+                save is from ourselves.</p>
+        </div>
+    </section>
 
-    <Div class="temas">
+    <section class="temas">
         <h2>Algunos de nuestros temas</h2>
         <div class="logos">
             <div class="trabajo">
@@ -74,12 +84,12 @@
                 <h3>Seguridad informática</h3>
             </div>
         </div>
-    </Div>
+    </section>
 
-    <div class="novedades">
+    <section class="novedades">
         <h2 class="titulo final">¿Querés las ultimas novedades</h2>
         <a href="#">ESCUCHA LOS EPISODIOS</a>
-    </div>
+    </section>
 
     <footer>
         <p>© 2019- Hello blue pale dot</p>
