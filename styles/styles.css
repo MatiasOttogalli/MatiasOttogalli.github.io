@@ -1,1 +1,71 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navegador {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 44px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navegador img {
+  margin-left: 16px;
+}
+
+.navegador fas fa-bars {
+  margin-right: 16px;
+}
+
+header {
+  position: relative;
+  margin: 29px 82px 0px 16px;
+}
+
+header .titulo {
+  font-family: "IBM plex sans", sans-serif;
+}
+
+header .titulo .tachado {
+  text-decoration: line-through;
+  color: #060A24;
+}
+
+header p {
+  margin-top: 16px;
+}
+
+.fondo-azul {
+  margin-top: 24px;
+  position: absolute;
+  width: 100%;
+  height: 1203.5px;
+  background: #0000a3;
+  background: -webkit-gradient(linear, left top, right top, from(#0000a3), to(blue));
+  background: linear-gradient(90deg, #0000a3 0%, blue 100%);
+  -webkit-clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+          clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+}
+
+.episodios {
+  margin-top: 88px;
+  position: relative;
+}
+
+.episodios .titulo-episodios {
+  margin-top: 88px;
+}
+
+.episodios .spotify {
+  margin-top: 21px;
+}
+/*# sourceMappingURL=styles.css.map */
