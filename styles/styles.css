@@ -42,6 +42,7 @@ header .titulo .tachado {
 
 header p {
   margin-top: 16px;
+  font-family: "IBM plex mono", monospace;
 }
 
 .fondo-azul {
