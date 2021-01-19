@@ -1,0 +1,32 @@
+.celular{
+    .celularimg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 100%;
+            height: 519px;
+        }
+   }
+}
+
+.venimos{
+    margin: 27px 16px 0 16px;
+    h2{
+        font-family: "IBM plex sans", sans-serif;
+        font-weight: 400;
+        font-size: 36px;
+        margin-top: 88px;
+        color: #060A24;
+        line-height: 42px;
+        letter-spacing: 0;
+    }
+    p{
+        margin-top: 8px;
+        text-align: justify;
+        font-family: "IBM plex mono", monospace;
+        font-size: 300;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

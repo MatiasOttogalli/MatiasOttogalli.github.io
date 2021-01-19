@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500&family=IBM+Plex+Sans:wght@100;300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navegador {
+    display: flex;
+    width: 100%;
+    height: 44px;
+    align-items: center;
+    justify-content: space-between;
+    img{
+        margin-left: 16px;
+    }
+    fas fa-bars{
+        // revisar alineacion
+        margin-right: 16px;
+    }
+}

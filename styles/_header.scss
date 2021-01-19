@@ -1,0 +1,34 @@
+header{
+    position:relative;
+    margin-top: 29px;
+    .titulo{
+        margin: 0 82px 0 16px; 
+        font-family: "IBM plex sans", sans-serif;
+        font-size: 34px;
+        .tachado{
+            text-decoration: line-through;
+            color: #060A24;
+        }
+    }
+    p{
+        position: relative;
+        margin: 16px 16px 0 16px;
+        font-family: "IBM plex mono", monospace;
+        font-size: 14px;
+        color: #060A24;
+        line-height: 22px;
+    }
+    .conocemas{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 36px 16px 0 16px;
+        padding: 13px 0;
+        background-color: #00F3BB;
+        font-family: "IBM plex mono", medium;
+        a{
+            text-decoration: none;
+            color: #060A24;
+        }
+    }
+}

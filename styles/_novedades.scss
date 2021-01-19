@@ -1,0 +1,35 @@
+.fondo-azul2{
+    margin-top: 42px;
+    position: relative;
+    width: 100%;
+    height: 341px;
+    background: rgb(0,0,163);
+    background: linear-gradient(90deg, rgba(0,0,163,1) 0%, rgba(0,0,255,1) 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+   }
+.novedades{
+    
+    .titulo-final{
+        text-align: center;
+        margin: 42px 16px 0 16px;
+        padding-top: 64px;
+        position: relative;
+        font-family: "IBM plex sans", sans-serif;
+        font-weight: 400;
+        font-size: 36px;
+        color: white;
+    }
+    .escucha{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 36px 16px 0 16px;
+        padding: 13px 0;
+        background-color: #00F3BB;
+        font-family: "IBM plex mono", medium;
+        a{
+            text-decoration: none;
+            color: #060A24;
+        }
+    }
+}
