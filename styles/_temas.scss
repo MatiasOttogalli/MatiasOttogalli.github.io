@@ -4,7 +4,7 @@
         font-family: "IBM plex sans", sans-serif;
         font-weight: 400;
         font-size: 36px;
-        margin-top: 88px;
+        margin-top: 48px;
         color: #060A24;
         line-height: 42px;
     }
@@ -66,4 +66,28 @@
             }
         }
      } 
+}
+
+@media only screen and (min-width: 1024px) {
+    .temas{
+        margin-top: 64px;
+        h2{
+        margin-left: 200px;
+        font-family: "IBM plex sans", sans-serif;
+        font-weight: 400;
+        font-size: 48px;
+        }
+        .logos{
+            margin-top: 69px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            div{
+                width: 260px;
+            }
+            h3{
+                font-size: 24px;
+            }
+        }
+}
 }

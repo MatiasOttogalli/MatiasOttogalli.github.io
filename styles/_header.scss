@@ -4,7 +4,8 @@ header{
     .titulo{
         margin: 0 82px 0 16px; 
         font-family: "IBM plex sans", sans-serif;
-        font-size: 34px;
+        font-size: 36px;
+        font-weight: 400;
         .tachado{
             text-decoration: line-through;
             color: #060A24;
@@ -31,4 +32,33 @@ header{
             color: #060A24;
         }
     }
+}
+
+@media only screen and (min-width: 1024px){
+    header{
+        .titulo{
+            margin-left: 200px;
+            font-size: 64px;
+            .punto{
+                color: #0000EC;
+            }
+        }
+        p{
+            margin-left: 200px;
+            width: 628px;
+            font-size: 16px;
+        }
+        .conocemas{
+            margin-left: 200px;
+            padding: 0;
+            width: 226px;
+            height: 56px;
+            font-size: 18px;
+            &:hover{
+            background: rgb(0,240,184);
+            background: linear-gradient(90deg, rgba(0,240,184,1) 0%, rgba(0,0,254,1) 100%);
+            }
+        }
+    }
+    
 }

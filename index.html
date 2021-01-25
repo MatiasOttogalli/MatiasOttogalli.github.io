@@ -15,11 +15,35 @@
 
     <nav class="navegador">
         <img src="./images/logo.svg" alt="logo_nav_izq">
-        <i class="fas fa-bars"></i>
+
+        <input type="checkbox" id="menu">
+        <label for="menu" class="abrir">
+            <i class="fas fa-bars" aria-hidden="true"></i>
+        </label>
+        <label for="menu" class="cerrar">
+            <i class="fas fa-times" aria-hidden="true"></i> 
+        </label>
+
+        <ul>
+            <li>            
+                <a class="episodios" href="#episodios" target="_blank">EPISODIOS</a>
+            </li>
+            <li>
+                <a class="nosotros" href="#nosotros" target="_blank">NOSOTROS</a>
+            </li>
+            <li>
+                <a class="entrevistas" href="#entrevistas" target="_blank">ENTREVISTAS</a>
+            </li>
+            <li>
+                <a class="topicos" href="#topicos" target="_blank">TOPICOS</a>
+            </li>
+        </ul>
+
+
     </nav>
 
     <header>
-        <h1 class="titulo">Hello <span class="tachado">world</span> pale blue dot.</h1>
+        <h1 class="titulo">Hello <span class="tachado">world</span> pale blue dot<span class="punto">.</span></h1>
         <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 dias.</p>
 
         <div class="conocemas">
@@ -35,15 +59,15 @@
         </div>
 
         <div class="spotify">
-            <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" allow="encrypted-media"></iframe>
+            <iframe class="iframe1" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" allow="encrypted-media"></iframe>
 
-            <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
+            <iframe class="iframe2" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
              allow="encrypted-media"></iframe>
 
-            <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+            <iframe class="iframe3" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
              allow="encrypted-media"></iframe>
 
-            <iframe class="iframe" src="https://open.spotify.com/embed-podcast/show/0iW21xFsrH509BGTEs3ufN"
+            <iframe class="iframe4" src="https://open.spotify.com/embed-podcast/show/0iW21xFsrH509BGTEs3ufN"
              allow="encrypted-media"></iframe>
 
         </div>
@@ -71,12 +95,12 @@
         </div>
 
         <div class="imgs">
-            <img src="./images/grace-hopper.png" alt="img1">
-            <img src="./images/Katie-Bouman.png" alt="img2">
-            <img src="./images/Margaret_Hamilton.png" alt="img3">
-            <img src="./images/computer-1950s.png" alt="img4">
-            <img src="./images/Computer-operators.png" alt="img5">
-            <img src="./images/susan-kare.png" alt="img6">
+            <img class="img1" src="./images/grace-hopper.png" alt="img1">
+            <img class="img2" src="./images/Katie-Bouman.png" alt="img2">
+            <img class="img3" src="./images/Margaret_Hamilton.png" alt="img3">
+            <img class="img4" src="./images/computer-1950s.png" alt="img4">
+            <img class="img5" src="./images/Computer-operators.png" alt="img5">
+            <img class="img6" src="./images/susan-kare.png" alt="img6">
         </div>
     </section>
 
@@ -89,7 +113,7 @@
             </div>
             <div class="repensando">
                 <img src="./images/icon2.svg" alt="icono2">
-                <h3>Repensando la programación</h3>
+                <h3>Repensando la <br> programación</h3>
             </div>
             <div class="bases">
                 <img src="./images/icon3.svg" alt="icono3">
